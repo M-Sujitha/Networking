@@ -1,0 +1,44 @@
+A port is a virtual communication endpoint used to identify specific processes or services on a device.
+Ports allow multiple applications to send and receive data simultaneously over a single network connection.
+Each port has a unique number (0–65535).
+
+TYPES OF PORTS:
+
+1. Well-Known Ports (0–1023):
+Used by standard services like HTTP, HTTPS, FTP, SSH.
+
+
+2. Registered Ports (1024–49151):
+Used by user applications like MySQL, PostgreSQL, etc.
+
+
+3. Dynamic / Private Ports (49152–65535):
+Temporarily used by applications for internal communication.
+
+COMMONLY USED PORT NUMBERS:
+
+20, 21	FTP	File Transfer Protocol (20 = Data, 21 = Control)
+22	SSH	Secure remote login
+23	Telnet	Unsecured remote access
+25	SMTP	Sending emails
+53	DNS	Converts domain names to IP addresses
+67, 68	DHCP	Automatically assigns IP addresses
+69	TFTP	Trivial File Transfer Protocol
+80	HTTP	Web traffic
+110	POP3	Retrieves emails
+123	NTP	Synchronizes system clocks
+135	RPC	Remote Procedure Call
+137–139	NetBIOS	Windows network communication
+143	IMAP	Email retrieval protocol
+161, 162	SNMP	Network management protocol
+389	LDAP	Directory access protocol
+443	HTTPS	Secure web traffic
+445	SMB	Windows file sharing
+514	Syslog	Sends system log messages
+993	IMAPS	Secure IMAP
+995	POP3S	Secure POP3
+3306	MySQL	MySQL Database
+3389	RDP	Remote POP3 Protocol
+5432	PostgreSQL	PostgreSQL Database
+5900	VNC	Remote desktop sharing
+8080	HTTP Alternate	Used for proxy or testing servers
